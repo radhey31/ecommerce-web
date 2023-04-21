@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Heading{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.navebar{
+    /* border: 2px solid red; */
+    background-color: rgba(127, 255, 212, 0.692);
+    height: 4.5rem;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: auto; */
+    
+}
+.center{
+    /* border: 2px solid fuchsia; */
+    width: 55%;
+}
+.navbarnav{
+    /* border: 2px solid pink; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.navbarnav li{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.navbarnav a{
+    /* border: 2px solid aqua; */
+    height: 2rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: space-around; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-weight: 700;
+    transition: all .2s ease-in;
+    text-shadow: 0px 1px 7px whitesmoke;
+}
+
+.navbarnav a:hover{
+    transform: translateY(-.2rem);
+    border-bottom: 2px solid white;
+}
+.input{
+    /* width: 20px; */
+    border: 1.5px solid grey;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* padding: 12px; */
+    /* margin: 12px; */
+    
+    /* height: 2rem; */
+    /* display: flex; */
+}
+.navbarnav a.active {
+    /* background-color: #186aad; */
+    /* color: pink; */
+    color: purple;
+}
+
+#sect-1{
+    border: 1px solid darkcyan;
+}
+
+.img img{
+    width: 100%;
+}
+
+.topnav input[type=text] {
+    float: center;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: right;
+        width: 100%;
+        margin: 2;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 5px solid #181717;
+    }
+}
+
+.head {
+    /* background-color: rgb(5, 161, 189); */
+    color: rgb(245, 247, 248);
+    font-size: 50px;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    text-align: center;
+}
+
+.words,
+ol,
+div {
+    font-size: 20px;
+    /* background-color: rgb(5, 161, 189); */
+    color: rgb(245, 245, 245);
+    font-style: bold;
+}
